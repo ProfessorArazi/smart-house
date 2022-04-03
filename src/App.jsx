@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./Components/Home";
 import { AddRoom } from "./Components/AddRoom";
 import { Provider } from "./contextApi";
@@ -22,7 +22,7 @@ function App() {
       <h1>Smart house</h1>
 
       <Provider value={{ setPickedRoom, pickedRoom }}>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<Home rooms={rooms} />} />
             <Route
@@ -44,7 +44,7 @@ function App() {
               }
             />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </Provider>
     </div>
   );
