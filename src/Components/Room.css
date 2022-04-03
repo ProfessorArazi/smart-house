@@ -1,0 +1,12 @@
+.room {
+  width: 110px;
+  height: 80px;
+  cursor: pointer;
+  border: 1px solid blue;
+  text-align: center;
+}
+
+.room p {
+  margin: 0;
+  font-size: 2rem;
+}

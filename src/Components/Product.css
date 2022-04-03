@@ -1,0 +1,8 @@
+.product {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px solid blue;
+  font-weight: 500;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid green;
+  width: 50%;
+  padding-bottom: 50px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.App h1 {
+  margin-bottom: 40px;
+}
+
+input,
+select {
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  border: 1px solid green;
+  height: 2rem;
+}
+
+select {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 100%;
+  }
+}
